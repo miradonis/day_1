@@ -1,0 +1,70 @@
+<!-- Doctype ab hier für den Browser HTML -->
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Im head finden wir allgemeine informationen zu der Website zb. zeichensatz -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title immer anpassen, wird im tab angezeigt -->
+    <title>Semantisches HTML - ol & ul und path</title>
+</head>
+
+<!-- im body wird gearbeitet, hier kommt allles rein was der user sieht -->
+
+<body>
+    <!--header gibt den kopfbereich der website an -->
+    <header>
+        <!-- nav wird genutzt um eine navigation zu bauen -->
+        <nav>
+            <!-- ul ist eine unordered list -->
+            <ul>
+                <!-- li ist ein einzelnes listenelemet & wird nur in der kombination mit ul odert ol genutzt -->
+                <li>Home</li>
+                <li><a href="./assets/html/about.html">About</a></li>
+                <li><a href="./assets/html/contact.html">Contact</a> </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- main gibt den hauptbnereich der website an -->
+    <main>
+        <!-- section ist ein großer teilbereich einer website -->
+        <section>
+            <h1>Hier findest Du Google:</h1>
+            <!-- paragraph ist für fließtext da -->
+            <p>Unsere Lieblingssuchmaschine von den besten Datenschützern der Welt</p>
+            <!-- a = anchor ist dafür da um auf andere seiten zu verlinken -->
+            <a href="https://www.google.de">Google</a>
+        </section>
+        <!-- article ist ein großer teilbereich einer website -->
+        <article>
+            <!-- h2 ist die 2. wichtige headline im html -->
+            <h2>Hier findest Du eine NoGo Website</h2>
+            <a href="https://www.theworldsworstwebsiteever.com">So bitte nicht machen</a>
+        </article>
+        <section>
+            <ol>
+                <li>Item 1
+                    <ul>
+                        <li>Item 1a</li>
+                        <li>Item 1b</li>
+                        <li>Item 1c</li>
+                    </ul>
+                </li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ol>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="./assets/html/datenschutz.html">Datenschutz</a></li>
+            <li><a href="./assets/html/impressum.html">Impressum</a></li>
+            <li><a href="./assets/html/services.html">Services</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
